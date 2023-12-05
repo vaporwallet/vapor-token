@@ -11,27 +11,44 @@ VaporWallet is a suite of smart contracts designed to provide a comprehensive ec
 - **Quick Summary**: The VaporWallet Smart Contracts repository contains a set of contracts that facilitate various activities such as token management, quest claims, and future implementations for rewards and staking.
 - **Version**: The current version of the VaporWallet Smart Contracts is 1.0.0.
 
+### Solidity
+- Solidity: ^0.8.0
+- BNB Chain, 
+
 ## Features
 
-Our smart contracts suite includes the following:
+### `VaporWalletActivities.sol`
+- Manages quest activities for users.
+- Users can complete quests to earn rewards.
+- Interacts with `VaporNFT.sol` to issue NFTs upon quest completion.
 
-- **VaporWalletActivities.sol**: This contract handles the general activities within the VaporWallet ecosystem, such as transferring assets and managing permissions.
-  
-- **VaporToken.sol**: A standard ERC-20 token contract used for the VaporWallet's native token, VPR. It is designed with security and efficiency in mind, providing a stable and reliable means of transaction within the VaporWallet ecosystem.
+### `VaporQuestClaim.sol`
+- Allows users to claim NFT rewards upon completing quests.
+- Verifies quest completion and interacts with `VaporNFT.sol` to mint NFTs.
 
-- **VaporQuestClaim.sol**: A unique contract that manages the claiming process for various quests and activities within the VaporWallet universe. It ensures a fair and transparent mechanism for users to claim rewards.
+### `VaporNFT.sol`
+- ERC-721 contract for handling quest-related NFTs.
+- Mints unique NFTs as rewards for completing quests in `VaporWalletActivities.sol`.
 
-- **VaporToken.sol**: *(Note: This appears to be listed twice. If there is a second variant or feature within this contract, it could be detailed here. Otherwise, consider removing the duplicate entry.)*
+### `VaporToken.sol`
+- ERC-20 token contract for VaporWallet's native token, VPR.
+- Used for transactions within the VaporWallet ecosystem.
 
 ## Todo
 
-The future roadmap for VaporWallet includes several exciting features:
+Future developments and enhancements planned for the VaporWallet ecosystem include:
 
-- **VaporPool (VPR Stake)**: An upcoming contract that will enable users to stake their VPR tokens, contributing to the security and efficiency of the network, while earning rewards.
+- **VaporPool (VPR Stake)**
+  - A staking contract allowing users to stake VPR tokens.
+  - Stakeholders earn rewards based on the amount and duration of their stake.
 
-- **VaporPoolRewardClaim**: This contract will manage the distribution of rewards to stakeholders in the VaporPool, ensuring a fair and consistent reward system.
+- **VaporPoolRewardClaim**
+  - Contract to claim staking rewards from VaporPool.
+  - Ensures fair and transparent distribution of rewards.
 
-- **VaporPoolRewardRNG**: A specialized contract designed to introduce a randomized element to the reward distribution process in the VaporPool, enhancing the dynamics of staking rewards.
+- **VaporPoolRewardRNG**
+  - A random number generator to determine staking rewards.
+  - Enhances the reward mechanism with an element of randomness.
 
 ## Contributing
 
@@ -50,3 +67,5 @@ For more information, updates, and news, follow us on [Twitter](https://twitter.
 ---
 
 *Disclaimer: This README is for informational purposes only and does not constitute financial, investment, or other advice.*
+
+---
