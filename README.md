@@ -43,7 +43,7 @@ VaporWallet Smart Contracts are released under the [MIT License](LICENSE).
 
 ---
 
-For more information, updates, and news, follow us on [Twitter](https://twitter.com/vaporwallet) or visit our [website](https://vaporwallet.com).
+For more information, updates, and news, follow us on [Twitter](https://twitter.com/vaporwallet) or visit our [website](https://vaporwallet.co).
 
 *This README is subject to updates and changes as our project evolves.*
 
