@@ -9,7 +9,7 @@ VaporWallet is a suite of smart contracts designed to provide a comprehensive ec
 ## Summary
 
 - **Quick Summary**: The VaporWallet Smart Contracts repository contains a set of contracts that facilitate various activities such as token management, quest claims, and future implementations for rewards and staking.
-- **Version**: The current version of the VaporWallet Smart Contracts is 1.0.0.
+- **Version**: The current version of the VaporWallet Smart Contracts is 1.1.0.
 
 ### Solidity
 - Solidity: ^0.8.0
@@ -37,6 +37,10 @@ VaporWallet is a suite of smart contracts designed to provide a comprehensive ec
 - Contract Address : [0x382CeFB55D3e06C1be985c599D55F0393Ee5e6a3](https://bscscan.com/address/0x382CeFB55D3e06C1be985c599D55F0393Ee5e6a3)
 - ERC-20 token contract for VaporWallet's native token, VPR.
 - Used for transactions within the VaporWallet ecosystem.
+
+### `VaporTokenClaim.sol`
+- Contract Address : [0x887761519B5611b51F4101AA758f320d2Be7b9C4](https://bscscan.com/address/0x887761519B5611b51F4101AA758f320d2Be7b9C4)
+- Claiming VPR tokens from Playbux Stamp to earn Lunchpad
 
 ## Todo
 
