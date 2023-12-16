@@ -62,3 +62,5 @@ data
 test
 deploy
 lib
+
+hardhat.config.*
